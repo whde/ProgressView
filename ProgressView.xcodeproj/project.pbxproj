@@ -14,6 +14,8 @@
 		4C5B1C1B20E6330A005C889D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5B1C1A20E6330A005C889D /* Assets.xcassets */; };
 		4C5B1C1E20E6330A005C889D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5B1C1C20E6330A005C889D /* LaunchScreen.storyboard */; };
 		4C5B1C2120E6330A005C889D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B1C2020E6330A005C889D /* main.m */; };
+		F8839CE220EA4155001C21E6 /* WhdeProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8839CE120EA4154001C21E6 /* WhdeProgressView.m */; };
+		F8839CE520EA42A6001C21E6 /* WhdeWaveProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8839CE420EA42A6001C21E6 /* WhdeWaveProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,10 @@
 		7666393C37C4C9CA2DCED2BF /* Pods-ProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressView/Pods-ProgressView.debug.xcconfig"; sourceTree = "<group>"; };
 		C637487CEEE5EDEF4070417F /* Pods-ProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressView/Pods-ProgressView.release.xcconfig"; sourceTree = "<group>"; };
 		DD472F2F8D4BD4221DE463ED /* Pods_ProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8839CE020EA4154001C21E6 /* WhdeProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhdeProgressView.h; sourceTree = "<group>"; };
+		F8839CE120EA4154001C21E6 /* WhdeProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhdeProgressView.m; sourceTree = "<group>"; };
+		F8839CE320EA42A6001C21E6 /* WhdeWaveProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhdeWaveProgressView.h; sourceTree = "<group>"; };
+		F8839CE420EA42A6001C21E6 /* WhdeWaveProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhdeWaveProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,10 @@
 				4C5B1C1220E63308005C889D /* AppDelegate.m */,
 				4C5B1C1420E63308005C889D /* ViewController.h */,
 				4C5B1C1520E63308005C889D /* ViewController.m */,
+				F8839CE020EA4154001C21E6 /* WhdeProgressView.h */,
+				F8839CE120EA4154001C21E6 /* WhdeProgressView.m */,
+				F8839CE320EA42A6001C21E6 /* WhdeWaveProgressView.h */,
+				F8839CE420EA42A6001C21E6 /* WhdeWaveProgressView.m */,
 				4C5B1C1720E63308005C889D /* Main.storyboard */,
 				4C5B1C1A20E6330A005C889D /* Assets.xcassets */,
 				4C5B1C1C20E6330A005C889D /* LaunchScreen.storyboard */,
@@ -189,16 +199,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ProgressView/Pods-ProgressView-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -213,7 +217,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5B1C1620E63308005C889D /* ViewController.m in Sources */,
+				F8839CE220EA4155001C21E6 /* WhdeProgressView.m in Sources */,
 				4C5B1C2120E6330A005C889D /* main.m in Sources */,
+				F8839CE520EA42A6001C21E6 /* WhdeWaveProgressView.m in Sources */,
 				4C5B1C1320E63308005C889D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
